@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En inloggningssida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="sad">INLOGGNINGSSIDA</h1>
+        <!-- ++++++++++++++++++++ LOG IN FORM ++++++++++++++++++++ -->
+        <form id="logInForm" action="#" name="logInForm">
+            <fieldset>
+                <label for="name">
+                    <p>Namn:<span>*</span></p>
+                    <input id="name" type="text" name="name" pattern="[A-Za-z]{2,}"
+                        title="Minst 2 bokstäver/ingen siffror" placeholder="Ditt namn" required>
+                </label>
+                <label for="password">
+                    <p>Lösenord:<span>*</span></p>
+                    <input id="password" type="password" name="password" pattern=".{6,}" title="Minst 6 tecken"
+                        placeholder="Ditt lösenord" required>
+                </label>
+            </fieldset>
+            <!-- +++++LOG IN & LOG OUT BUTTONS +++++-->
+            <div class="btnContainer">
+                <button id="logInBtn" class="button">
+                    <img src="/images/logInIcon.png" alt="log in image">Logga in
+                </button>
+                <button id="logOutBtn" class="button display">
+                    <img src="/images/logOutIcon.png" alt="log out image">Logga ut
+                </button>
+            </div>
+        </form>
+        <!-- +++++ LINKS +++++ -->
+        <div class="links">
+            <a href="#">Skapa ett konto</a>
+            <a href="#">Glömt ditt lösenord?</a>
+        </div>
+        <!-- ++++++++++++++++++++ INFORMATIONS ++++++++++++++++++++ -->
+        <div class="info">
+            <h2>Information</h2>
+            <figure>
+                <img src="/images/swimmer.jpg" alt="A swimmer">
+            </figure>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pulvinar congue leo sed vulputate.
+                    Donec tempor massa ac
+                    porttitor auctor. In hendrerit efficitur mollis. Aliquam dignissim cursus urna, eu vestibulum justo
+                    ornare sit amet. Sed
+                    rutrum malesuada leo id fringilla. Sed dapibus, velit non cursus malesuada, mauris massa maximus
+                    nulla, a cursus eros
+                    diam ultricies turpis. Integer luctus commodo maximus. Vivamus libero tortor, maximus sit amet
+                    vehicula id, interdum et
+                    libero. Phasellus vel elit nulla.</p>
+
+                <p>Donec accumsan sem nisl, quis lobortis dolor congue a. Pellentesque ipsum est, molestie ac nisi sit
+                    amet, sagittis
+                    vulputate nulla. Suspendisse pulvinar, neque eget faucibus laoreet, velit massa maximus nibh, vitae
+                    semper sapien orci
+                    eget odio. Cras porta ligula orci, vel pellentesque ligula malesuada in. Duis nec tincidunt mi. Cras
+                    sollicitudin, lorem
+                    ac facilisis congue, lacus mi dapibus neque, ac aliquam tortor lectus ut nibh. Ut feugiat porta
+                    sapien. Sed ultricies
+                    magna ut elit porttitor condimentum. Aliquam blandit tempus nunc sed tempor. Nulla luctus metus ut
+                    erat sagittis, nec
+                    egestas purus feugiat.</p>
+
+                <p>Nullam lacinia mi vel ante tincidunt, sed vulputate neque commodo. Sed sagittis neque vel est
+                    euismod, ultrices posuere
+                    leo lacinia. Donec vel magna bibendum sem ultricies lacinia vitae nec velit. Morbi ut efficitur
+                    nisi. Ut venenatis
+                    molestie porttitor. Duis elementum purus sem, et commodo metus ultrices sit amet. In metus nisl,
+                    accumsan vitae
+                    vestibulum et, facilisis ac libero.</p>
+
+                <p>Vivamus consequat sem ut suscipit laoreet. Etiam fringilla sit amet augue at posuere. Phasellus nunc
+                    leo, feugiat non
+                    cursus ac, cursus id urna. Pellentesque enim ex, finibus id purus a, porttitor pharetra elit.
+                    Aliquam diam ex, congue
+                    quis turpis a, luctus ultricies enim. Integer eleifend turpis non massa fringilla molestie.
+                    Suspendisse potenti.
+                    Maecenas aliquet vulputate urna sed tristique. Sed vestibulum mauris purus, mattis volutpat tortor
+                    molestie in.</p>
+
+                <p>Sed suscipit nulla et ante malesuada, nec interdum ligula vestibulum. Proin id sodales ante. Integer
+                    et scelerisque
+                    mauris. Nam pharetra quis turpis eu semper. Donec sed erat tempor enim tristique semper. Etiam sed
+                    elementum massa.
+                    Proin in libero vel risus laoreet mattis non quis sapien. Aliquam ut nibh non ante finibus
+                    sollicitudin. Cras pretium
+                    viverra ex, ac suscipit libero pulvinar in. Nam ex sapien, aliquam vel facilisis id, sodales sit
+                    amet lorem. Maecenas
+                    odio lacus, hendrerit eleifend malesuada sed, luctus eget enim. Orci varius natoque penatibus et
+                    magnis dis parturient
+                    montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Fusce euismod ultricies odio ac
+                    porta. Praesent mattis
+                    tellus a sem venenatis, vel dapibus sem posuere. Duis id odio mollis, pretium mi ut, ullamcorper
+                    eros.</p>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
