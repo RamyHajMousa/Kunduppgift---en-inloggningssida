@@ -26,14 +26,12 @@ span {
     color: rgb(215, 5, 5);
 }
 
-/*===============MESSAGE DIV===============*/
 .message {
     border-radius: 5px;
     padding: 10px 15px;
     opacity: 0.9;
 }
 
-/*===============LOG IN FORM===============*/
 #logInForm fieldset {
     border: none;
 }
@@ -54,7 +52,6 @@ span {
 }
 
 
-/*-----Log in Button-----*/
 .btnContainer {
     padding: 20px;
 }
@@ -108,7 +105,6 @@ span {
     }
 }
 
-/*===============LINKS===============*/
 .links {
     background: #b4defe;
     margin: 10px 0;
@@ -126,7 +122,6 @@ span {
     color: #cd2b22;
 }
 
-/*===============INFORMATION===============*/
 .info div,
 h2 {
     background: #b4defe;
