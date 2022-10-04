@@ -16,7 +16,7 @@ messageDiv.classList.add("message");
 
 if (localStorage.length !== 0) {
     changeButton();
-    messageText.textContent = `Välkommen ${namn}, du är fortfarande inloggad`;
+    messageText.textContent = `Välkommen ${namn}, du är nu inloggad.`;
     messageDiv.style.backgroundColor = "#4aff4a";
 }
 
